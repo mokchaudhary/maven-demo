@@ -15,11 +15,7 @@ public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
         System.out.println("==============================================");
-        System.out.println("Seal Security Demo Application Started!");
-        System.out.println("==============================================");
-        System.out.println("This application uses several dependencies that");
-        System.out.println("have known vulnerabilities. Seal Security has");
-        System.out.println("automatically replaced them with patched versions.");
+        System.out.println("  Demo Application Started!");
         System.out.println("==============================================");
     }
 }
