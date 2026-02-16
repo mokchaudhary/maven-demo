@@ -52,7 +52,7 @@ jobs:
         run: |
           wget -q https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
           tar xzf ngrok-v3-stable-linux-amd64.tgz
-          ./ngrok config add-authtoken ${{ secrets.NGROK_AUTHTOKEN }}
+          ./ngrok config add-authtoken ${{ secrets.NGROK_TOKEN }}
           ./ngrok http --url=sealtest2.ngrok.dev 8080 &
           sleep 3
           echo "App:     https://sealtest2.ngrok.dev"
