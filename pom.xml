@@ -10,7 +10,7 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Seal Security Maven Demo</name>
+    <name>maven-demo</name>
     <description>Demo application showing Seal Security vulnerability remediation in Maven projects</description>
 
     <properties>
